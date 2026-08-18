@@ -1,6 +1,6 @@
 # 試題 1：正向測試
 
-驗證 https://bookinghub.cathay-hcm.com.tw/ 預約流程
+驗證 [衡好選智能健檢預約平台](https://bookinghub.cathay-hcm.com.tw/) 預約流程
 
 「首頁(第一次來) → 檢查地點 → 基本資料 → 方案 → 加選項目 → 確認項目」
 
