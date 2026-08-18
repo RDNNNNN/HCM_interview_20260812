@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 原始考題 PDF 不上傳到公開的遠端倉庫（PDF 內註明請勿於公開網站外流試題）
+國泰健康管理_技術研發科_TQA試題.docx.pdf
