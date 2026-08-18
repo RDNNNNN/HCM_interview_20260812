@@ -1,6 +1,8 @@
 # HCM_interview_20260812
 
-國泰健康管理 技術研發科 TQA 試題作答專案。使用 **Python + Playwright + pytest**
+國泰健康管理 技術研發科 TQA 試題作答專案。
+
+使用 **Python + Playwright + pytest**
 
 對 [衡好選智能健檢預約平台](https://bookinghub.cathay-hcm.com.tw/) 進行端對端 UI 自動化驗證。
 
