@@ -1,9 +1,11 @@
 # HCM_interview_20260812
 
 國泰健康管理 技術研發科 TQA 試題作答專案。使用 **Python + Playwright + pytest**
-對 https://bookinghub.cathay-hcm.com.tw/ 健檢預約平台進行端對端 UI 自動化驗證。
+
+對 [衡好選智能健檢預約平台](https://bookinghub.cathay-hcm.com.tw/) 進行端對端 UI 自動化驗證。
 
 ## 專案結構
+
 ```
 HCM_interview_20260812/
 ├── README.md      # 本檔案：整體說明
@@ -16,6 +18,7 @@ HCM_interview_20260812/
 不需要共用虛擬環境或跨資料夾設定。
 
 ## 快速開始
+
 ```bash
 # 試題1（正向測試）
 cd 試題1
@@ -33,6 +36,7 @@ python -m pytest test_negative_flow.py -v --html=report.html --self-contained-ht
 每題執行完成後，於各自資料夾下開啟 `report.html` 即為 pytest-html 產出的驗證報告。
 
 ## 技術說明
+
 - **框架**：Playwright（瀏覽器自動化）+ pytest（測試執行與斷言）+
   pytest-playwright（提供 `browser`/`page` fixture）+ pytest-html（產出 HTML 報告）
 - **架構**：採用 Page Object Model，兩題共用同一份 `pages/booking_flow_page.py`
@@ -45,6 +49,7 @@ python -m pytest test_negative_flow.py -v --html=report.html --self-contained-ht
   等由後端動態計算，測試斷言鎖定在「特定文字/項目是否出現」而非寫死的金額
 
 ## 已知限制
+
 - 測試依賴外部正式網站的即時回應與畫面文字，若網站文案、UI 結構或健檢方案內容
   調整，對應的選取器或斷言文字可能需要同步更新
 - 目前僅涵蓋 PDF 試題所要求的驗證點，未涵蓋其餘畫面（如「曾經來過，直接預約」
